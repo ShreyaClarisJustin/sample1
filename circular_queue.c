@@ -71,8 +71,8 @@ int main()
     int n;
     char ch;
     printf("Menu:\n1-Insert elements into the circular queue\n2-Delete elements from the circular queue\n3-Display the elements of circular queue\n");
- do
- {
+    do
+    {
         printf("Enter your choice: ");
         scanf("%d", &n);
         switch (n)
@@ -100,7 +100,6 @@ int main()
         }
         printf("Do you want to continue? (y/n):");
         scanf(" %c", &ch);
- }
- while (ch == 'y');
- return 0;
+    } while (ch == 'y');
+    return 0;
 }
